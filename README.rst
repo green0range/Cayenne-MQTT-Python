@@ -73,7 +73,12 @@ For more detailed info about the Cayenne client API you can use **pydoc**.
 
   pydoc cayenne.client
   
+  
 
 Additional Cayenne MQTT Libraries
 =================================
 Additional libraries are available for connecting to Cayenne with other languages. These can be found at https://github.com/myDevicesIoT.
+
+Note From green0range
+---------------------
+I have forked this to fix the broken on_connect function, which was giving me an error saying that it didn't take enough parameters. It is otherwise unchanged.
